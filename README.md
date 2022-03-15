@@ -31,6 +31,10 @@ The probe is compatible with **Marlin and Klipper**. Both firmwares work with th
 - small cable tie and some cable (you may also need a connector to connect the probe to the mainboard e.g JST XH)
 
 
+## Assembly Guidee
+I made a short video about the assembly and installation of the probe. Wiring and firmware changes are described at the bottom of the page.
+[![Little red riding hood](http://i.imgur.com/7YTMFQp.png)](https://vimeo.com/3514904 "Little red riding hood - Click to Watch!")
+
 ---
 
 ## Wiring Guide
