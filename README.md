@@ -15,8 +15,12 @@ The probe is compatible with **Marlin and Klipper**. Both firmwares work with th
 
     Its working very well for me. If you have any questions ask me here or feel free to contact me on Discord: kevinakasam#2097 
 
-
-   <img src="https://github.com/kevinakasam/KlackEnder-Probe/blob/main/Images/KlackEnder.gif" width="400" height="400" />
+<table>
+  <tr>
+    <td><img src="https://github.com/kevinakasam/KlackEnder-Probe/blob/main/Images/KlackEnder.gif" height="350"> </td>
+    <td><img src="https://github.com/kevinakasam/KlackEnder-Probe/blob/main/Images/Image.png" height="350"> </td>
+  </tr>
+</table>
 
 ### BOM - Parts you need:
 - 1x OMRON D2F or similar switch
