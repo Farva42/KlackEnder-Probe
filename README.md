@@ -92,10 +92,135 @@ The KlackEnder probe works with Marlin and Klipper. This guide only shows you wh
 
 ### Klipper
 
-
-The installation for Klipper is pretty easy. Simply upload the ```KlackEnder.cfg```and add ```[include KlackEnder.cfg]```to your printer.cfg
-You could also copy all the code into your printer.cfg so you only have one file, but I like to organize and sort my configurations.
+The installation for Klipper is pretty easy. Simply copy the code from the ```KlackEnder.cfg```to your ```printer.cfg```
 The ```[gcode_macro G29]``` does the same like the ```[gcode_macro AUTO_BED_MESH]```. I just added this so you can use the G29 commend as usual.
+
+Dont forgot to edit your probe Pin:
+  ```
+  #####################################################################
+  #	KlackEnder- Settings
+  #####################################################################
+
+  [probe]
+  pin: ^PC14 #Probe-Stop Connection on Skr Mini E3 DIP. Change this if needed!
+  #z_offset: 0 #Measure per your specific setup
+  x_offset: 8 # negative = left of the nozzle
+  y_offset: 21 # negative = in front of of the nozzle
+  speed: 5.0
+  lift_speed: 15.0
+  sample_retract_dist: 1
+  samples: 2
+  samples_tolerance_retries: 6
+
+  ##[(7x7)-1] / 2 = 24
+  ##[(5x5)-1] / 2 = 12
+  [bed_mesh]
+  speed: 300
+  horizontal_move_z: 2
+  mesh_min: 8,30
+  mesh_max: 223,201
+  probe_count: 5,5
+  relative_reference_index: 12
+  algorithm: bicubic
+  fade_start: 1
+  fade_end: 10
+  #fade_target:
+  #   The z position in which fade should converge. When this value is set
+  #   to a non-zero value it must be within the range of z-values in the mesh.
+  #   Users that wish to converge to the z homing position should set this to 0.
+  #   Default is the average z value of the mesh.
+  split_delta_z: 0.015
+  #   The amount of Z difference (in mm) along a move that will
+  #   trigger a split. Default is .025.
+  move_check_distance: 3
+  #   The distance (in mm) along a move to check for split_delta_z.
+  #   This is also the minimum length that a move can be split. Default
+  #   is 5.0.
+  mesh_pps: 4,4
+  #   A comma separated pair of integers (X,Y) defining the number of
+  #   points per segment to interpolate in the mesh along each axis. A
+  #   "segment" can be defined as the space between each probed
+  #   point. The user may enter a single value which will be applied
+  #   to both axes.  Default is 2,2.
+  #bicubic_tension: .2
+  #   When using the bicubic algorithm the tension parameter above
+  #   may be applied to change the amount of slope interpolated.
+  #   Larger numbers will increase the amount of slope, which
+  #   results in more curvature in the mesh. Default is .2.
+
+  #####################################################################
+  #	KlackEnder- Macros
+  #####################################################################
+
+  [gcode_macro PROBE_OUT]
+  gcode:
+      G90
+      G1 Z5
+      G1 X245 F20000
+      G1 Z0
+      G4 P300
+      G1 Z20
+      G1 X0
+
+  [gcode_macro PROBE_IN]
+  gcode:
+      G90
+      G1 Z20
+      G1 X245 F20000
+      G1 Z0
+      G4 P300
+      G1 X240 F1000
+      G1 Z5
+      G4 P300
+      G1 X0 F20000
+      G1 Z0
+
+  [gcode_macro AUTO_BED_MESH]
+  gcode:
+      PROBE_OUT
+      BED_MESH_CALIBRATE
+      G1 Y0 F20000
+      PROBE_IN
+
+  [gcode_macro G29]
+  gcode:
+      PROBE_OUT
+      BED_MESH_CALIBRATE
+      G1 Y0 F20000
+      PROBE_IN
+
+  #####################################################################
+  #	KlackEnder- Menu
+  #####################################################################
+
+  [menu __main]
+  type: list
+  name: Main
+
+  [menu __main __KlackEnder]
+  type: list
+  enable: True
+  name: KlackEnder
+
+  [menu __main __KlackEnder __ProbeOut]
+  type: command
+  name: Probe Out
+  gcode:
+      PROBE_OUT
+
+  [menu __main __KlackEnder __ProbeIn]
+  type: command
+  name: Probe In
+  gcode:
+      PROBE_IN
+
+  [menu __main __KlackEnder __AutoBedMesh]
+  type: command
+  name: Auto Bed Mesh
+  gcode:
+      G28
+      AUTO_BED_MESH
+  ```
 
 ### Marlin
 The installation for Marlin requires some more changes, but I will guide you through this :)  There is also a zipped Marlin file. This is exactly the same configuration I used for testing. It contains the Probe related thins only!! Do not flash this to your printer!!
