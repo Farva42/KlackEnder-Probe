@@ -56,6 +56,21 @@ In the next chapter about firmware changes you will see where to add the pin.
        
     <img src="https://github.com/kevinakasam/KlackEnder-Probe/blob/main/Images/SKR-Mini-V1.x.jpg" height="300" />
 
-- Image source [Creality3D](https://www.printertec.ch/elektronik/arduino/335/skr-mini-e3-v1.2-control-board-32-bit-cpu-32bit-board-fuer-ender-cr-10)
+- Image source [printertec](https://www.printertec.ch/elektronik/arduino/335/skr-mini-e3-v1.2-control-board-32-bit-cpu-32bit-board-fuer-ender-cr-10)
 - Pin for Firmware: PC14
 
+#### BIGTREETECH SKR Mini E3 V2.x
+- Connect the probe to the two marked pins (Part of the BL-Touch port).
+       
+    <img src="https://github.com/kevinakasam/KlackEnder-Probe/blob/main/Images/SKR-Mini-V2.x.jpg" height="300" />
+
+- Image source [BIGTREETECH](https://ae01.alicdn.com/kf/H27db29b02f354dc3abb6e36905bc45cdm/BIGTREETECH-BTT-SKR-MINI-E3-V2-Control-Board-32bit-Mit-TMC2209-3D-Drucker-Teile-Motherboard-F.jpg_Q90.jpg_.webp)
+- Pin for Firmware: PC14
+
+#### BIGTREETECH SKR Mini E3 V3.x
+- Connect the probe to the two marked pins (Probe port).
+       
+    <img src="https://github.com/kevinakasam/KlackEnder-Probe/blob/main/Images/SKR-Mini-V3.x.jpg" height="300" />
+
+- Image source [3djake](https://www.3djake.de/bigtreetech/skr-mini-e3)
+- Pin for Firmware: PC14
