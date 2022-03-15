@@ -31,9 +31,12 @@ The probe is compatible with **Marlin and Klipper**. Both firmwares work with th
 - small cable tie and some cable (you may also need a connector to connect the probe to the mainboard e.g JST XH)
 
 
-## Assembly Guidee
-I made a short video about the assembly and installation of the probe. Wiring and firmware changes are described at the bottom of the page.
-[![Little red riding hood](http://i.imgur.com/7YTMFQp.png)](https://vimeo.com/3514904 "Little red riding hood - Click to Watch!")
+## Assembly Guide
+I made a short video about the assembly and installation of the probe.
+
+Wiring and firmware changes are described at the bottom of the page.
+
+[![Video Guide](https://github.com/kevinakasam/KlackEnder-Probe/blob/main/Images/Preview.jpg)](https://youtu.be/2e0tamL57Yo "Click to Watch!")
 
 ---
 
@@ -82,3 +85,19 @@ In the next chapter about firmware changes you will see where to add the pin.
 
 - Image source [3djake](https://www.3djake.de/bigtreetech/skr-mini-e3)
 - Pin for Firmware: PC14
+
+## Firmware Guide
+The KlackEnder probe works with Marlin and Klipper. This guide only shows you what changes you need to make to the firmware, not how to modify/upload the firmware itself. There are several guides online for different boards and printers.
+**You do not have to use the ```Probe In``` or ```Probe Out``` macros.** They're just a nice to have. The printer will do this automatically when you send a ```G29```.
+
+### Klipper
+
+
+The installation for Klipper is pretty easy. Simply upload the ```KlackEnder.cfg```and add ```[include KlackEnder.cfg]```to your printer.cfg
+You could also copy all the code into your printer.cfg so you only have one file, but I like to organize and sort my configurations.
+The ```[gcode_macro G29]``` does the same like the ```[gcode_macro AUTO_BED_MESH]```. I just added this so you can use the G29 commend as usual.
+
+### Marlin
+The installation for Marlin requires some more changes, but I will guide you through this :)  There is also a zipped Marlin file. This is exactly the same configuration I used for testing.
+
+
