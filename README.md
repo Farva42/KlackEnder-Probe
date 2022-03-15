@@ -11,7 +11,7 @@ The probe is compatible with **Marlin and Klipper**. Both firmwares work with th
 - Cuatom menu to control the probe.
 - Cheap way to get fast and accurate probing.
 - Easy to install, no soldering.
-- work with all print surfaces
+- Works with all print surfaces
 
     Its working very well for me. If you have any questions ask me here or feel free to contact me on Discord: kevinakasam#2097 
 
@@ -98,6 +98,8 @@ You could also copy all the code into your printer.cfg so you only have one file
 The ```[gcode_macro G29]``` does the same like the ```[gcode_macro AUTO_BED_MESH]```. I just added this so you can use the G29 commend as usual.
 
 ### Marlin
-The installation for Marlin requires some more changes, but I will guide you through this :)  There is also a zipped Marlin file. This is exactly the same configuration I used for testing.
+The installation for Marlin requires some more changes, but I will guide you through this :)  There is also a zipped Marlin file. This is exactly the same configuration I used for testing. It contains the Probe related thins only!! Do not flash this to your printer!!
 
+#### 1. Configuration.h
 
+Search for ```// @section homing``` and change 
