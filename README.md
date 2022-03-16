@@ -17,8 +17,8 @@ The probe is compatible with **Marlin and Klipper**. Both firmwares work with th
 
 <table>
   <tr>
-    <td><img src="https://github.com/kevinakasam/KlackEnder-Probe/blob/main/Images/KlackEnder.gif" height="350"> </td>
-    <td><img src="https://github.com/kevinakasam/KlackEnder-Probe/blob/main/Images/Image.png" height="350"> </td>
+    <td><img src="https://github.com/kevinakasam/KlackEnder-Probe/blob/main/Images/KlackEnder.gif" width="350"> </td>
+    <td><img src="https://github.com/kevinakasam/KlackEnder-Probe/blob/main/Images/Image.png" width="460"> </td>
   </tr>
 </table>
 
@@ -49,7 +49,7 @@ In the next chapter about firmware changes you will see where to add the pin.
 #### Stock Ender 3+Pro / Creality3D V1.1.x
 - Currently I do not know how to connect an additional endstop to the stock Creality3D V1.1.x Mainboard
        
-    <img src="https://i1.wp.com/www.th3dstudio.com/wp-content/uploads/2017/12/CR10v112.jpg?fit=1200%2C828&ssl=1" height="300" />
+    <img src="https://i1.wp.com/www.th3dstudio.com/wp-content/uploads/2017/12/CR10v112.jpg?fit=1200%2C828&ssl=1" width="460" />
 
 - Image source [3D-Druck-Community](https://www.3d-druck-community.de/showthread.php?tid=23449)
 - Pin for Firmware: 
@@ -57,7 +57,7 @@ In the next chapter about firmware changes you will see where to add the pin.
 #### Ender 3 V2 / Silent Board V4.2.7 (or all Creality3D V4.x.x)
 - Connect the probe to the two marked pins (G and Out). This pins would be also used to connect a BL-Touch.
        
-    <img src="https://github.com/kevinakasam/KlackEnder-Probe/blob/main/Images/V4.2.7.jpg" height="300" />
+    <img src="https://github.com/kevinakasam/KlackEnder-Probe/blob/main/Images/V4.2.7.jpg" width="460" />
 
 - Image source [Creality3D](https://creality3d.shop/products/creality3d-upgrade-silent-4-2-7-1-1-5-mainboard-for-ender-3-ender-3-pro-ender-5-3d-printer?lang=de)
 - Pin for Firmware: PB1
@@ -65,7 +65,7 @@ In the next chapter about firmware changes you will see where to add the pin.
 #### BIGTREETECH SKR Mini E3 V1.x
 - Connect the probe to the two marked pins (Probe port).
        
-    <img src="https://github.com/kevinakasam/KlackEnder-Probe/blob/main/Images/SKR-Mini-V1.x.jpg" height="300" />
+    <img src="https://github.com/kevinakasam/KlackEnder-Probe/blob/main/Images/SKR-Mini-V1.x.jpg" width="460" />
 
 - Image source [printertec](https://www.printertec.ch/elektronik/arduino/335/skr-mini-e3-v1.2-control-board-32-bit-cpu-32bit-board-fuer-ender-cr-10)
 - Pin for Firmware: PC14
@@ -73,7 +73,7 @@ In the next chapter about firmware changes you will see where to add the pin.
 #### BIGTREETECH SKR Mini E3 V2.x
 - Connect the probe to the two marked pins (Part of the BL-Touch port).
        
-    <img src="https://github.com/kevinakasam/KlackEnder-Probe/blob/main/Images/SKR-Mini-V2.x.jpg" height="300" />
+    <img src="https://github.com/kevinakasam/KlackEnder-Probe/blob/main/Images/SKR-Mini-V2.x.jpg" width="460" />
 
 - Image source [BIGTREETECH](https://ae01.alicdn.com/kf/H27db29b02f354dc3abb6e36905bc45cdm/BIGTREETECH-BTT-SKR-MINI-E3-V2-Control-Board-32bit-Mit-TMC2209-3D-Drucker-Teile-Motherboard-F.jpg_Q90.jpg_.webp)
 - Pin for Firmware: PC14
@@ -81,7 +81,7 @@ In the next chapter about firmware changes you will see where to add the pin.
 #### BIGTREETECH SKR Mini E3 V3.x
 - Connect the probe to the two marked pins (Probe port).
        
-    <img src="https://github.com/kevinakasam/KlackEnder-Probe/blob/main/Images/SKR-Mini-V3.x.jpg" height="300" />
+    <img src="https://github.com/kevinakasam/KlackEnder-Probe/blob/main/Images/SKR-Mini-V3.x.jpg" width="460" />
 
 - Image source [3djake](https://www.3djake.de/bigtreetech/skr-mini-e3)
 - Pin for Firmware: PC14
@@ -95,7 +95,7 @@ The KlackEnder probe works with Marlin and Klipper. This guide only shows you wh
 The installation for Klipper is pretty easy. Simply copy the code from the ```KlackEnder.cfg```to your ```printer.cfg```
 The ```[gcode_macro G29]``` does the same like the ```[gcode_macro AUTO_BED_MESH]```. I just added this so you can use the G29 commend as usual.
 
-Dont forgot to edit your probe Pin:
+**Don't forgot to edit your probe Pin:**
   ```
   #####################################################################
   #	KlackEnder- Settings
@@ -103,7 +103,7 @@ Dont forgot to edit your probe Pin:
 
   [probe]
   pin: ^PC14 #Probe-Stop Connection on Skr Mini E3 DIP. Change this if needed!
-  #z_offset: 0 #Measure per your specific setup
+  z_offset: 0 #Measure per your specific setup
   x_offset: 8 # negative = left of the nozzle
   y_offset: 21 # negative = in front of of the nozzle
   speed: 5.0
