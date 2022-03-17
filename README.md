@@ -36,7 +36,7 @@ I made a short video about the assembly and installation of the probe.
 
 Wiring and firmware changes are described at the bottom of the page.
 
-[![Video Guide](https://github.com/kevinakasam/KlackEnder-Probe/blob/main/Images/Preview.jpg)](https://youtu.be/2e0tamL57Yo "Click to Watch!")
+[![Video Guide](https://github.com/kevinakasam/KlackEnder-Probe/blob/main/Images/Thumbnail.png)](https://youtu.be/2e0tamL57Yo "Click to Watch!")
 
 ---
 
