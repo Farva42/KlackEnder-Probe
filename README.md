@@ -13,8 +13,13 @@ The probe is compatible with **Marlin and Klipper**. Both firmwares work with th
 - Easy to install, no soldering.
 - Works with all print surfaces
 
-    Its working very well for me. If you have any questions feel free to join the Discord-Server: https://discord.gg/xqpKrxt9FC 
-    
+        
+Its working very well for me. If you have any questions feel free to join the [Discord-Server](https://discord.gg/xqpKrxt9FC) 
+ 
+<a href="https://discord.gg/xqpKrxt9FC">
+         <img alt="Join" src="https://github.com/kevinakasam/BeltDrivenEnder3/blob/main/Pictures/Discord-Logo%2BWordmark-Color.png"
+         width=250" >
+      </a>
 
 <table>
   <tr>
