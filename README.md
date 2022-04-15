@@ -13,7 +13,7 @@ The probe is compatible with **Marlin and Klipper**. Both firmwares work with th
 - Easy to install, no soldering.
 - Works with all print surfaces
 
-    Its working very well for me. If you have any questions ask me here or feel free to contact me on Discord: kevinakasam#2097 
+    Its working very well for me. If you have any questions feel free to join the Discord-Server: https://discord.gg/xqpKrxt9FC 
     
 
 <table>
