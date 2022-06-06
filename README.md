@@ -23,11 +23,11 @@ Its working very well for me. If you have any questions feel free to join the [D
 </a>
 
 ### Rev_1 vs. Rev_2
-What's the difference between Revision 1 and Revion 2? The most important difference is the position of the probe. With the Rev2, the probe is attached to the X-axis, which is why the probe can be used as a Z end stop. So no additional port for an end stop is needed and the probe can simply be connected to the old Z end stop.
+What's the difference between Revision 1 and Revion 2? The most important difference is the position of the probe. With the Rev2, the probe is attached to the X-axis, which is why the probe can be used as a Z end stop. So no additional port for an end stop is needed and the probe can simply be connected to the old Z endstop port. The renders below show the difference, the upper one is the Rev2.
                    
 <table>
   <tr>
-    <td><img src="https://github.com/kevinakasam/KlackEnder-Probe/blob/main/Rev_2/Images/Comp.png" width="350"> </td>
-    <td><img src="https://github.com/kevinakasam/KlackEnder-Probe/blob/main/Rev_2/Images/Comp2.png" width="350"> </td>
+    <td><img src="https://github.com/kevinakasam/KlackEnder-Probe/blob/main/Rev_2/Images/Comp.png" width="450"> </td>
+    <td><img src="https://github.com/kevinakasam/KlackEnder-Probe/blob/main/Rev_2/Images/Comp2.png" width="450"> </td>
   </tr>
 </table>
