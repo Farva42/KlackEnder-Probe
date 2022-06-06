@@ -20,4 +20,14 @@ Its working very well for me. If you have any questions feel free to join the [D
 <a href="https://discord.gg/xqpKrxt9FC">
          <img alt="Join" src="https://github.com/kevinakasam/BeltDrivenEnder3/blob/main/Pictures/Discord-Logo%2BWordmark-Color.png"
          width=250" >
-      </a>
+</a>
+
+### Rev_1 vs. Rev_2
+What's the difference between Revision 1 and Revion 2? The most important difference is the position of the probe. With the Rev2, the probe is attached to the X-axis, which is why the probe can be used as a Z end stop. So no additional port for an end stop is needed and the probe can simply be connected to the old Z end stop.
+                   
+<table>
+  <tr>
+    <td><img src="https://github.com/kevinakasam/KlackEnder-Probe/blob/main/Rev_2/Images/Comp.png" width="350"> </td>
+    <td><img src="https://github.com/kevinakasam/KlackEnder-Probe/blob/main/Rev_2/Images/Comp2.png" width="350"> </td>
+  </tr>
+</table>
