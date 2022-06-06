@@ -23,8 +23,8 @@ Its working very well for me. If you have any questions feel free to join the [D
 
 <table>
   <tr>
-    <td><img src="https://github.com/kevinakasam/KlackEnder-Probe/blob/main/Images/KlackEnder.gif" width="350"> </td>
-    <td><img src="https://github.com/kevinakasam/KlackEnder-Probe/blob/main/Images/Image.png" width="460"> </td>
+    <td><img src="https://github.com/kevinakasam/KlackEnder-Probe/blob/main/Rev_1/Images/KlackEnder.gif" width="350"> </td>
+    <td><img src="https://github.com/kevinakasam/KlackEnder-Probe/blob/main/Rev_1/Images/Image.png" width="460"> </td>
   </tr>
 </table>
 
@@ -42,7 +42,7 @@ I made a short video about the assembly and installation of the probe.
 
 Wiring and firmware changes are described at the bottom of the page.
 
-[![Video Guide](https://github.com/kevinakasam/KlackEnder-Probe/blob/main/Images/ThumbnailThingi.png)](https://youtu.be/zpy08KOuiJg "Click to Watch!")
+[![Video Guide](https://github.com/kevinakasam/KlackEnder-Probe/blob/main/Rev_1/Images/ThumbnailThingi.png)](https://youtu.be/zpy08KOuiJg "Click to Watch!")
 
 ---
 
@@ -63,7 +63,7 @@ In the next chapter about firmware changes you will see where to add the pin.
 #### Ender 3 V2 / Silent Board V4.2.7 (or all Creality3D V4.x.x)
 - Connect the probe to the two marked pins (G and Out). This pins would be also used to connect a BL-Touch.
        
-    <img src="https://github.com/kevinakasam/KlackEnder-Probe/blob/main/Images/V4.2.7.jpg" width="460" />
+    <img src="https://github.com/kevinakasam/KlackEnder-Probe/blob/main/Rev_1/Images/V4.2.7.jpg" width="460" />
 
 - Image source [Creality3D](https://creality3d.shop/products/creality3d-upgrade-silent-4-2-7-1-1-5-mainboard-for-ender-3-ender-3-pro-ender-5-3d-printer?lang=de)
 - Pin for Firmware: PB1
@@ -71,7 +71,7 @@ In the next chapter about firmware changes you will see where to add the pin.
 #### BIGTREETECH SKR Mini E3 V1.x
 - Connect the probe to the two marked pins (Probe port).
        
-    <img src="https://github.com/kevinakasam/KlackEnder-Probe/blob/main/Images/SKR-Mini-V1.x.jpg" width="460" />
+    <img src="https://github.com/kevinakasam/KlackEnder-Probe/blob/main/Rev_1/Images/SKR-Mini-V1.x.jpg" width="460" />
 
 - Image source [printertec](https://www.printertec.ch/elektronik/arduino/335/skr-mini-e3-v1.2-control-board-32-bit-cpu-32bit-board-fuer-ender-cr-10)
 - Pin for Firmware: PC14
@@ -79,7 +79,7 @@ In the next chapter about firmware changes you will see where to add the pin.
 #### BIGTREETECH SKR Mini E3 V2.x
 - Connect the probe to the two marked pins (Part of the BL-Touch port).
        
-    <img src="https://github.com/kevinakasam/KlackEnder-Probe/blob/main/Images/SKR-Mini-V2.x.jpg" width="460" />
+    <img src="https://github.com/kevinakasam/KlackEnder-Probe/blob/main/Rev_1/Images/SKR-Mini-V2.x.jpg" width="460" />
 
 - Image source [BIGTREETECH](https://ae01.alicdn.com/kf/H27db29b02f354dc3abb6e36905bc45cdm/BIGTREETECH-BTT-SKR-MINI-E3-V2-Control-Board-32bit-Mit-TMC2209-3D-Drucker-Teile-Motherboard-F.jpg_Q90.jpg_.webp)
 - Pin for Firmware: PC14
@@ -87,7 +87,7 @@ In the next chapter about firmware changes you will see where to add the pin.
 #### BIGTREETECH SKR Mini E3 V3.x
 - Connect the probe to the two marked pins (Probe port).
        
-    <img src="https://github.com/kevinakasam/KlackEnder-Probe/blob/main/Images/SKR-Mini-V3.x.jpg" width="460" />
+    <img src="https://github.com/kevinakasam/KlackEnder-Probe/blob/main/Rev_1/Images/SKR-Mini-V3.x.jpg" width="460" />
 
 - Image source [3djake](https://www.3djake.de/bigtreetech/skr-mini-e3)
 - Pin for Firmware: PC14
