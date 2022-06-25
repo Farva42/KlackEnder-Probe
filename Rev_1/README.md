@@ -1,4 +1,4 @@
-## KlackEnder Probe
+## KlackEnder Probe *Revision 1*
 
 KlackEnder Probe - **Simple, fast and cheap!**
   
@@ -34,7 +34,7 @@ Its working very well for me. If you have any questions feel free to join the [D
 - 2x M3x8mm screw (SHCS or BHCS doesn't matter)
 - 3x M5x8mm screw (SHCS or BHCS doesn't matter)
 - 3x M5 t-nut
-- small cable tie and some cable (you may also need a connector to connect the probe to the mainboard e.g JST XH)
+- small zip tie and some cable (you may also need a connector to connect the probe to the mainboard e.g JST XH)
 
 
 ## Assembly Guide
