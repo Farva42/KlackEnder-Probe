@@ -74,7 +74,6 @@ Wiring for the Rev2 is very easy. Simply unmount/unplug your old z-endstop and c
 The KlackEnder probe works with Marlin and Klipper. This guide only shows you what changes you need to make to the firmware, not how to modify/upload the firmware itself. There are several guides online for different boards and printers.
 **You do not have to use the ```Probe In``` or ```Probe Out``` macros.** They're just a nice to have. The printer will do this automatically when you send a ```G29```.
 
-**Important note: You have to set the offset to the z limit switch, not to the probe! The printer calculates the first layer from the z endstops position and the probed mesh!**
 
 ### Klipper
 
