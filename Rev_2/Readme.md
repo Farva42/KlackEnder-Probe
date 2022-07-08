@@ -38,6 +38,19 @@ Its working very well for me. If you have any questions feel free to join the [D
 - small zip tie and some cable (you may also need a connector to connect the probe to the mainboard e.g JST XH)
 - Users of the Belt Z Mod: 1x M5x45mm screw (SHCS or BHCS doesn't matter) (with the wheels the 40mm screw is just long enough, for the MGN it's too short)
                                                                                                               
+## STL-Files / Tolerances
+<table>
+  <tr>
+    <td><img src="https://raw.githubusercontent.com/kevinakasam/KlackEnder-Probe/main/Rev_2/Images/ToleranceTest.png" width="460"> </td>
+    <td><img src="https://raw.githubusercontent.com/kevinakasam/KlackEnder-Probe/main/Rev_2/Images/ToleranceTest1.png" width="460"> </td>
+  </tr>
+</table>
+
+Some people have contacted me with the problem that the layers split when they insert the magnets. This happens when the magnet is too big for the hole/the hole is too small for the magnet. So either the magnets are a bit bigger than 6mm or your printer prints the holes too small (never use a caliper to measure the magnets!. Only if they are made of plastic!). How the printer prints the holes depends not only on the material (ABS shrinks a bit, while PETG stays fairly constant) but also on the orientation of the holes. Vertical holes are usually a bit smaller than the horizontal ones, the ones that are printed in the walls. This is because these holes are formed by the layers and can never be completely round (the circle is made of 0.2mm (layer height) lines). At the same time, the diameter is strongly influenced by the print settings (speed, acceleration, linear advance/pressure advance, etc.).
+
+However, you may need different tolerances than I do. That is why I have designed a small tolerance test. As already described, the tolerances for vertical and horizontal holes can/will differ. Stick a screwdriver through the smaller holes to get your magnets out again.
+
+
 
 ## Assembly Guide
                                                                                                                
