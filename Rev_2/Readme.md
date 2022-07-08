@@ -3,7 +3,9 @@
 KlackEnder Probe - **Simple, fast and cheap!**
   
 Adaptation of the [Klicky](https://github.com/jlas1/Klicky-Probe)/[Quickdraw](https://github.com/Annex-Engineering/Quickdraw_Probe) Probe for the Ender 3 and comparable         Creality printers. The probe is compatible with all printers that use the X plate of the Ender 3. The cost of the probe is <5€, of which the switch is the most expensive part.
-The probe is compatible with **Marlin and Klipper**. Both firmwares work with the G29 command, the docking is done automatically by the printer, it couldn't be easier! Both    firmwares add a KlackEnder menu to the display that can be used to dock and undock the Probe. The Bed-Mesh can be created via the custom menu, via the default formware settings or with G29. **Important note: You have to set the offset to the z limit switch, not to the probe! The printer calculates the first layer from the z endstops position and the probed mesh!**
+The probe is compatible with **Marlin and Klipper**. Both firmwares work with the G29 command, the docking is done automatically by the printer, it couldn't be easier! Both    firmwares add a KlackEnder menu to the display that can be used to dock and undock the Probe. The Bed-Mesh can be created via the custom menu, via the default firmware settings or with G29.
+
+**With the Rev2 you can replace the stock limit switch with the probe. This means you don't need an additional endstop port like for the Rev1.**
 
 ### Quick Overwiew:
 - Compatible with Marlin and Klipper. Firmware is provided.
@@ -12,7 +14,7 @@ The probe is compatible with **Marlin and Klipper**. Both firmwares work with th
 - Cheap way to get fast and accurate probing.
 - Easy to install, no soldering.
 - Works with all print surfaces
-- Use it as Z Endstop with the Rev2
+- **Use it as Z Endstop with the Rev2**
 
         
 Its working very well for me. If you have any questions feel free to join the [Discord-Server](https://discord.gg/xqpKrxt9FC) 
@@ -50,6 +52,9 @@ Some people have contacted me with the problem that the layers split when they i
 
 However, you may need different tolerances than I do. That is why I have designed a small tolerance test. As already described, the tolerances for vertical and horizontal holes can/will differ. Stick a screwdriver through the smaller holes to get your magnets out again.
 
+### Parametric Fusion 360 File
+There is an f3d file in the [CAD](https://github.com/kevinakasam/KlackEnder-Probe/tree/main/Rev_2/CAD) folder. This file format is for Autodesk Fusion 360, a free CAD program for private users. You can use it to adjust the tolerances if the STL files I provided do not fit.
+As described in the tolerance test, there are different tolerances for vertical and horizontal holes. Follow the steps decribes in the [CAD](https://github.com/kevinakasam/KlackEnder-Probe/tree/main/Rev_2/CAD) folder to create your own STL.
 
 
 ## Assembly Guide
