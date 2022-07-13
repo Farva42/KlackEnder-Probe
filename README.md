@@ -7,10 +7,10 @@ The probe is compatible with **Marlin and Klipper**. Both firmwares work with th
 
 I recommend to use the Rev2!
 
-### Quick Overwiew:
+### Quick Overview:
 - Compatible with Marlin and Klipper. Firmware is provided.
 - Automatic docking and undocking of the probe.
-- Cuatom menu to control the probe.
+- Custom menu to control the probe.
 - Cheap way to get fast and accurate probing.
 - Easy to install, no soldering.
 - Works with all print surfaces
