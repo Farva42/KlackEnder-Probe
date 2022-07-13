@@ -7,10 +7,10 @@ The probe is compatible with **Marlin and Klipper**. Both firmwares work with th
 
 **With the Rev2 you can replace the stock limit switch with the probe. This means you don't need an additional endstop port like for the Rev1.**
 
-### Quick Overwiew:
+### Quick Overview:
 - Compatible with Marlin and Klipper. Firmware is provided.
 - Automatic docking and undocking of the probe.
-- Cuatom menu to control the probe.
+- Custom menu to control the probe.
 - Cheap way to get fast and accurate probing.
 - Easy to install, no soldering.
 - Works with all print surfaces
@@ -50,7 +50,7 @@ Its working very well for me. If you have any questions feel free to join the [D
 
 Some people have contacted me with the problem that the layers split when they insert the magnets. This happens when the magnet is too big for the hole/the hole is too small for the magnet. So either the magnets are a bit bigger than 6mm or your printer prints the holes too small (never use a caliper to measure the magnets!. Only if they are made of plastic!). How the printer prints the holes depends not only on the material (ABS shrinks a bit, while PETG stays fairly constant) but also on the orientation of the holes. Vertical holes are usually a bit smaller than the horizontal ones, the ones that are printed in the walls. This is because these holes are formed by the layers and can never be completely round (the circle is made of 0.2mm (layer height) lines). At the same time, the diameter is strongly influenced by the print settings (speed, acceleration, linear advance/pressure advance, etc.).
 
-However, you may need different tolerances than I do. That is why I have designed a small tolerance test. As already described, the tolerances for vertical and horizontal holes can/will differ. Stick a screwdriver through the smaller holes to get your magnets out again.
+However, you may need different tolerances than I do. That is why I have designed a small tolerance test (_thanks to SchlongkyDong for the idea!_). As already described, the tolerances for vertical and horizontal holes can/will differ. Stick a screwdriver through the smaller holes to get your magnets out again.
 
 ### Parametric Fusion 360 File
 There is an f3d file in the [CAD](https://github.com/kevinakasam/KlackEnder-Probe/tree/main/Rev_2/CAD) folder. This file format is for Autodesk Fusion 360, a free CAD program for private users. You can use it to adjust the tolerances if the STL files I provided do not fit.
