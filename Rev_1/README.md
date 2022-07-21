@@ -344,10 +344,10 @@ Marlin will now include a probe deploy and stow option under the motion menu whe
   Change line 1942 from ```#define MESH_INSET 1```
   to ```#define MESH_INSET 10```
   
-  Change line 1943 from ```#define GRID_MAX_POINTS_X 10```
-  to ```#define GRID_MAX_POINTS_X 15```
-  Uncomment line 1954 by removing the ```//``` before ```#define UBL_MESH_WIZARD```
-  Uncomment line 1974 ```//#define LCD_BED_LEVELING```
-  Uncomment Line 1983 ```//#define LCD_BED_TRAMMING```
-  Uncomment Line 1990 ```//#define BED_TRAMMING_USE_PROBE```
-  Uncomment Line 2138 ```//#define EEPROM_INIT_NOW   // Init EEPROM on first boot after a new build```
+  Change line 1943 from ```#define GRID_MAX_POINTS_X 10```  
+  to ```#define GRID_MAX_POINTS_X 15```  
+  Uncomment line 1954 by removing the ```//``` before ```#define UBL_MESH_WIZARD```  
+  Uncomment line 1974 ```//#define LCD_BED_LEVELING```  
+  Uncomment Line 1983 ```//#define LCD_BED_TRAMMING```  
+  Uncomment Line 1990 ```//#define BED_TRAMMING_USE_PROBE```  
+  Uncomment Line 2138 ```//#define EEPROM_INIT_NOW   // Init EEPROM on first boot after a new build```  
