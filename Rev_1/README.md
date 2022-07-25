@@ -300,7 +300,7 @@ Marlin will now include a probe deploy and stow option under the motion menu whe
   #define X_MIN_POS 0
   #define Y_MIN_POS -8      --> adjust endstop position
   #define Z_MIN_POS 0
-  #define X_MAX_POS +15     --> adjust x travel
+  #define X_MAX_POS X_BED_SIZE +15     --> adjust x travel
   #define Y_MAX_POS Y_BED_SIZE
   #define Z_MAX_POS 250     --> adjust z travel
   ```
